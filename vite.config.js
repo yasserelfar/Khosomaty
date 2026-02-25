@@ -5,7 +5,7 @@ import path from "path";
 
 export default defineConfig({
   // when deploying to GitHub Pages, set base to "/<REPO_NAME>/"
-  base: process.env.NODE_ENV === 'production' ? '/<REPO_NAME>/' : '/',
+  base: process.env.NODE_ENV === "production" ? "/<REPO_NAME>/" : "/",
   plugins: [
     tailwindcss(),
     react({
